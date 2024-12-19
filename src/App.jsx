@@ -7,7 +7,7 @@ import Dashboard from "./components/Admin/dashboard/MainContent";
 import Reservation from "./components/Admin/reservations/MainContent";
 import AdminStaffList from "./components/Admin/Admin-staff-list/Admin-staff-list";
 import Treatment from "./components/Admin/treatment/mainContent";
-// import Beds from "./components/Admin/BedsAvaliablity/main";
+import Beds from "./components/Admin/BedsAvaliablity/main";
 import Bills from "./components/Admin/bills/main";
 
 import PatientDashboard from "./components/Patient/Dashboard/PtMainContent";
@@ -32,7 +32,7 @@ function App() {
         <Route path='/admin-staff' element={<AdminStaffList />} />
         <Route path='/admin-treatment' element={<Treatment />} />
         <Route path='/admin-bills' element={<Bills />} />
-        {/* <Route path='/admin-beds' element={<Beds />} /> */}
+        <Route path='/admin-beds' element={<Beds />} />
 
         <Route path='/patient' element={<PatientDashboard />} />
         <Route path='/patient-dashboard' element={<PatientDashboard />} />
